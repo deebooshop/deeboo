@@ -54,6 +54,8 @@ const updateCategory = async (req, res) => {
         return res.status(500).json(err);
     }
 };
+
+
 module.exports.createCategory = createCategory;
 module.exports.updateCategory = updateCategory;
 module.exports.getCategory = getCategory;

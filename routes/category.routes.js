@@ -12,4 +12,5 @@ router.put("/:categoryId", updateCategory);
 router.delete("/:categoryId", deleteCategory);
 router.get("/:categorySlug", getCategory);
 router.get("/", getCategories);
+
 module.exports = router;
